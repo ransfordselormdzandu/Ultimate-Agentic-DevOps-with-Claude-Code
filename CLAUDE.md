@@ -1,24 +1,12 @@
 # CLAUDE.md
-
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
-
 ## Project Overview
-
 **DMI Portfolio Website** — a static HTML/CSS portfolio site for the DevOps Micro Internship Week 1 program. Teaches Nginx hosting, Linux basics, and deployment practices by having students deploy this site on an Ubuntu VM and keep it live for 24 hours.
-
 **Key characteristics:**
 - Pure static site (no build process, no backend)
 - Single stylesheet (`style.css`), responsive design
 - Minimal external dependencies (Font Awesome from CDN)
 - Designed to be deployed with Nginx on Ubuntu
-
-## File Structure
-
-- `index.html` — Main portfolio page with navbar, hero, skills, services, courses, contact sections
-- `privacy.html`, `terms.html` — Legal pages
-- `style.css` — All styling (responsive, mobile menu, smooth scrolling)
-- `images/` — Assets (logo, profile photo, course/tech icons)
-- `README.md` — Deployment instructions and ownership proof requirement
 
 
 ## Architecture
@@ -41,6 +29,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Safety
 - Never put secrets in this file. No API keys, passwords, or AWS credentials
+
 
 ## Critical Customization: Ownership Proof
 
